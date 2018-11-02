@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">map4d-android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    //Navigation
+    <string name="your_location">Địa điểm của bạn</string>
+    <string name="share_location">Chia sẻ vị trí</string>
+    <string name="your_contribute">Đóng góp của bạn</string>
+    <string name="setting">Cài đặt</string>
+    <string name="help">Trợ giúp</string>
+</resources>

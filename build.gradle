@@ -1,0 +1,35 @@
+ext {
+    VERSION_CODE = 1
+    VERSION_NAME = "1.0"
+
+    MIN_SDK = 19
+    TARGET_SDK = 26
+
+    SUPPORT_LIB = "26.1.0"
+}
+
+buildscript {
+    ext.KOTLIN_VERSION = '1.2.61'
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.4'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$KOTLIN_VERSION"
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
